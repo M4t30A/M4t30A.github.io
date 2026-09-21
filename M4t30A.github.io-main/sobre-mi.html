@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre mí — Mateo Amaya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<canvas id="cursor-canvas"></canvas>
+
+<nav>
+  <div class="nav-logo"><span id="typewriter"></span><span class="tw-cursor">_</span></div>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="sobre-mi.html" class="active">Sobre mí</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="certificados.html">Certs</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+
+<section class="page-section">
+  <div class="section-header page-hero">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Sobre mí</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>
+        Soy un estudiante apasionado por la ciberseguridad, con foco en pentesting,
+        análisis de redes y sistemas GNU/Linux. Me interesa entender cómo funcionan
+        los sistemas para encontrar sus vulnerabilidades y contribuir a hacerlos más seguros.
+      </p>
+      <p>
+        Aprendo constantemente a través de laboratorios prácticos, plataformas de hacking
+        ético y documentación técnica. Creo que la seguridad informática es un campo que
+        requiere curiosidad permanente y mentalidad de atacante para defender mejor.
+      </p>
+    </div>
+
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+      </div>
+      <div class="t-line"><span class="prompt">~$</span> <span class="cmd">cat info.txt</span></div>
+      <div class="t-line"><span class="out">Nombre   : </span>Mateo Amaya</div>
+      <div class="t-line"><span class="out">Rol      : </span>Estudiante Ciberseguridad</div>
+      <div class="t-line"><span class="out">SO       : </span>Linux (Kali / Arch)</div>
+      <div class="t-line"><span class="out">Foco     : </span>Pentesting, Redes</div>
+      <div class="t-line"><span class="out">Estado   : </span>Aprendiendo 24/7</div>
+      <br>
+      <div class="t-line"><span class="prompt">~$</span> <span class="cmd">echo $OBJETIVO</span></div>
+      <div class="t-line comment"># Convertirme en profesional</div>
+      <div class="t-line"><span class="out">></span> Ethical Hacker <span class="cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>© 2025 — Mateo Amaya</div>
+  <div>Desarrollado con 💚 y mucho terminal</div>
+</footer>
+
+<div id="sudo-overlay">
+  <div id="sudo-terminal">
+    <div class="sudo-bar"><span>root@m4t30a:~#</span></div>
+    <div id="sudo-body"></div>
+  </div>
+  <button id="sudo-close" onclick="closeSudo()">[ ESC ] CERRAR</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

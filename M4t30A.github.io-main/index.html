@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mateo Amaya — Ciberseguridad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<canvas id="cursor-canvas"></canvas>
+
+<nav>
+  <div class="nav-logo"><span id="typewriter"></span><span class="tw-cursor">_</span></div>
+  <ul>
+    <li><a href="index.html" class="active">Inicio</a></li>
+    <li><a href="sobre-mi.html">Sobre mí</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="certificados.html">Certs</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+
+<div id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">Ciberseguridad</div>
+    <h1><span class="glitch" data-text="Mateo">Mateo</span><br><span class="accent glitch" data-text="Amaya">Amaya</span></h1>
+    <div class="hero-subtitle">$ whoami — Ethical Hacker & Security Student</div>
+    <p class="hero-desc">
+      Estudiante de ciberseguridad apasionado por Linux, las redes y el hacking ético.
+      Actualmente mejorando mis habilidades mediante prácticas de laboratorio y ejercicios prácticos.
+    </p>
+    <p class="hero-desc" style="font-size:0.92rem; margin-top:-0.8rem;">
+      📚 Cursando <strong style="color:#fff;">Técnico Superior en Ciberseguridad</strong> en el
+      <strong style="color:#fff;">Colegio Universitario IES</strong> — formándome con base técnica sólida
+      en seguridad de sistemas, redes y análisis de vulnerabilidades.
+    </p>
+    <div class="hero-btns">
+      <a href="certificados.html" class="btn btn-primary">Ver certificados</a>
+      <a href="contacto.html" class="btn btn-secondary">Contacto</a>
+    </div>
+  </div>
+
+  <div class="status-bar">
+    <div><span class="live">●</span> SISTEMA ACTIVO</div>
+    <div>UBICACIÓN: <span class="live">AR / ONLINE</span></div>
+    <div>MODO: <span class="live">APRENDIZAJE</span></div>
+  </div>
+</div>
+
+<footer>
+  <div>© 2025 — Mateo Amaya</div>
+  <div>Desarrollado con 💚 y mucho terminal</div>
+</footer>
+
+<div id="sudo-overlay">
+  <div id="sudo-terminal">
+    <div class="sudo-bar"><span>root@m4t30a:~#</span></div>
+    <div id="sudo-body"></div>
+  </div>
+  <button id="sudo-close" onclick="closeSudo()">[ ESC ] CERRAR</button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
