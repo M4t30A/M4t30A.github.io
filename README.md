@@ -1,65 +1,265 @@
-# Web personal — Mateo Amaya
+# 🛡️ Mateo Amaya — Portfolio de Ciberseguridad
 
-Sitio dividido en páginas (antes era un solo HTML gigante). Estructura:
+> **Estudiante de Ciberseguridad · Linux · Redes · Pentesting · Hacking Ético**
 
+Portfolio personal desarrollado para presentar mi formación, conocimientos, certificaciones y evolución profesional dentro del área de **ciberseguridad**.
+
+El proyecto está construido desde cero con **HTML, CSS y JavaScript**, utilizando una estética inspirada en terminales, sistemas Linux y seguridad informática.
+
+🌐 **Portfolio:** [m4t30a.github.io](https://m4t30a.github.io/)
+
+---
+
+## 👨‍💻 Sobre el proyecto
+
+Este sitio funciona como mi carta de presentación técnica y profesional.
+
+Actualmente estoy formándome como **Técnico Superior en Ciberseguridad**, mientras complemento mi formación académica con laboratorios prácticos, plataformas de entrenamiento, Linux, redes y diferentes tecnologías relacionadas con seguridad informática.
+
+El objetivo del portfolio es documentar mi evolución y mostrar de una manera práctica los conocimientos que voy adquiriendo.
+
+---
+
+## 🚀 Características
+
+* 🖥️ Diseño inspirado en terminales y ciberseguridad
+* 🌌 Fondo dinámico con partículas
+* ⚡ Efectos visuales y animaciones
+* 👾 Efecto `glitch`
+* ⌨️ Animación tipo terminal / typewriter
+* 🖱️ Cursor interactivo
+* 🏅 Sección de certificaciones
+* 🔗 Enlaces de verificación de certificados
+* 📱 Diseño responsive
+* 📬 Formulario de contacto
+* 🐧 Easter egg interactivo con `sudo su`
+* 🧩 Arquitectura dividida en múltiples páginas
+* 🎨 Hoja de estilos compartida
+* ⚙️ JavaScript modularizado por funcionalidad
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+M4t30A.github.io/
+│
+├── index.html              # Página principal
+├── sobre-mi.html           # Información personal y objetivos
+├── skills.html             # Tecnologías y habilidades
+├── certificados.html       # Certificaciones y credenciales
+├── contacto.html           # Formulario y medios de contacto
+│
+├── css/
+│   └── style.css           # Estilos globales
+│
+├── js/
+│   ├── main.js             # Animaciones, partículas, cursor,
+│   │                       # typewriter y Easter egg
+│   └── certs.js            # Funcionalidad de certificados
+│
+└── images/
+    └── certs/              # Imágenes de certificaciones
 ```
-index.html          → Inicio / hero
-sobre-mi.html        → Sección "Sobre mí"
-skills.html          → Sección "Skills"
-certificados.html    → Certificados (con verificación)
-contacto.html        → Formulario de contacto funcional
-css/style.css        → Estilos compartidos por todas las páginas
-js/main.js           → Cursor, partículas, glitch, typewriter, easter egg (sudo su)
-js/certs.js          → Lógica de preview de imagen en certificados.html
-images/certs/        → Imágenes de los certificados de Hack4u
+
+---
+
+## 🧰 Tecnologías utilizadas
+
+### Frontend
+
+| Tecnología   | Uso                              |
+| ------------ | -------------------------------- |
+| HTML5        | Estructura y contenido           |
+| CSS3         | Diseño, animaciones y responsive |
+| JavaScript   | Interactividad y efectos         |
+| Canvas API   | Partículas y efectos visuales    |
+| Google Fonts | Tipografías del proyecto         |
+
+### Entorno y herramientas
+
+| Herramienta  | Uso                                 |
+| ------------ | ----------------------------------- |
+| Git          | Control de versiones                |
+| GitHub       | Repositorio y publicación           |
+| GitHub Pages | Hosting del portfolio               |
+| Linux        | Entorno de aprendizaje y desarrollo |
+
+---
+
+## 🛡️ Enfoque en Ciberseguridad
+
+Mi formación está orientada principalmente hacia:
+
+```text
+Linux
+ ├── Terminal
+ ├── Bash
+ └── Administración de sistemas
+
+Networking
+ ├── Redes
+ ├── Protocolos
+ └── Análisis de tráfico
+
+Cybersecurity
+ ├── Pentesting
+ ├── Vulnerabilidades
+ ├── CTF / Labs
+ └── Hacking Ético
 ```
 
-## Subir a GitHub Pages
+Mi objetivo es seguir desarrollando tanto conocimientos **ofensivos** como **defensivos**, entendiendo cómo funcionan los sistemas para poder identificar vulnerabilidades y contribuir a mejorar su seguridad.
 
-1. Copiá todo el contenido de esta carpeta (manteniendo la estructura) a la raíz de tu repo
-   (el mismo donde ya tenías el `index.html` viejo, o uno nuevo).
-2. Hacé commit y push.
-3. En GitHub → Settings → Pages, confirmá que sirve desde la rama y carpeta correctas
-   (normalmente `main` / `root`). Ya debería estar andando porque no cambia nada de eso.
+---
 
-## Activar el formulario de contacto (Formspree — gratis)
+## 🏅 Certificaciones
 
-1. Andá a **https://formspree.io** y creá una cuenta gratis con tu email.
-2. Una vez adentro, hacé clic en **"New Form"**, ponele un nombre (ej: "Contacto web").
-3. Formspree te va a dar una URL tipo:
-   ```
-   https://formspree.io/f/abcd1234
-   ```
-4. Abrí `contacto.html`, buscá esta línea:
-   ```html
-   <form id="contact-form" class="contact-form reveal" action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
-   ```
-   y reemplazá `TU_ID_DE_FORMSPREE` por el ID que te dio Formspree (ej: `abcd1234`).
-5. Subí el cambio a GitHub.
-6. La primera vez que alguien complete y envíe el formulario (podés probarlo vos mismo),
-   Formspree te va a mandar un mail para **confirmar el formulario**. Confirmalo una vez
-   y a partir de ahí ya funciona normal, sin pasos extra.
+El portfolio incluye una sección dedicada a mis certificaciones y credenciales.
 
-**Plan gratis de Formspree:** hasta 50 envíos por mes, sin necesidad de backend ni
-tarjeta de crédito. Si en algún momento lo superás, se puede migrar a otro plan o a
-otro servicio similar sin tocar el diseño del formulario.
+Entre ellas se encuentran certificaciones relacionadas con:
 
-## Certificados
+* 🐧 Linux
+* 💻 Administración y personalización de entornos Linux
+* 🌐 Redes y tecnologías relacionadas
+* ☁️ Cloud
+* 🔐 Ciberseguridad
 
-Los IDs y las imágenes de los 3 certificados de Hack4u (Introducción a Linux,
-Personalización de Entorno en Linux, Arch Linux desde Cero) ya están actualizados
-en `certificados.html`, apuntando a las imágenes en `images/certs/` y con el link
-de verificación de Hack4u (`https://hack4u.io/check-certificate/`).
+Las certificaciones que disponen de verificación externa incluyen enlaces hacia sus respectivas plataformas de validación.
 
-Cisco y AWS quedaron como cards con link directo a la credencial (Credly / AWS),
-sin imagen de preview embebida — así el HTML queda más liviano. Si querés que
-también tengan preview de imagen como los de Hack4u, pasame la imagen del
-certificado y la agrego con el mismo estilo.
+---
 
-## Notas
+## 🧪 Aprendizaje práctico
 
-- El "sudo su" (escribilo en cualquier página) sigue funcionando en todas las páginas,
-  es parte de `js/main.js`.
-- Todas las páginas comparten la misma navbar, footer, partículas y cursor —
-  para agregar una página nueva, copiá cualquiera de las existentes como base
-  y sumala al `<ul>` de la nav en **todas** las páginas.
+Además de la formación académica, utilizo laboratorios y plataformas prácticas para reforzar los conocimientos adquiridos.
+
+Algunos de los temas que estoy trabajando incluyen:
+
+```text
+Linux
+Bash
+Networking
+Nmap
+Active Directory
+Web Security
+Pentesting
+CTF
+Docker
+Cloud
+Security Fundamentals
+```
+
+La idea es que el portfolio evolucione junto con mi formación y que, progresivamente, también incorpore proyectos y laboratorios documentados.
+
+---
+
+## 📬 Contacto
+
+Si querés contactarme o conocer más sobre mi trabajo:
+
+* 💼 **LinkedIn:** [linkedin.com/in/mate0-amaya](https://linkedin.com/in/mate0-amaya)
+* 🐙 **GitHub:** [github.com/M4t30A](https://github.com/M4t30A)
+* 🌐 **Portfolio:** [m4t30a.github.io](https://m4t30a.github.io/)
+
+---
+
+## ⚙️ Ejecutar localmente
+
+El proyecto no requiere frameworks ni dependencias externas para funcionar.
+
+Cloná el repositorio:
+
+```bash
+git clone https://github.com/M4t30A/M4t30A.github.io.git
+```
+
+Entrá al proyecto:
+
+```bash
+cd M4t30A.github.io
+```
+
+Y abrí:
+
+```text
+index.html
+```
+
+También podés utilizar una extensión como **Live Server** para visualizarlo durante el desarrollo.
+
+---
+
+## 📬 Configuración del formulario
+
+El formulario de contacto utiliza **Formspree** como servicio externo.
+
+Antes de utilizarlo en producción es necesario reemplazar:
+
+```html
+action="https://formspree.io/f/TU_ID_DE_FORMSPREE"
+```
+
+por el endpoint proporcionado por Formspree.
+
+> ⚠️ No es necesario crear un backend propio para este proyecto.
+
+---
+
+## 🗺️ Roadmap
+
+El portfolio continúa en desarrollo.
+
+### Completado
+
+* [x] Diseño inicial
+* [x] Página principal
+* [x] Sección "Sobre mí"
+* [x] Sección de Skills
+* [x] Sección de certificaciones
+* [x] Página de contacto
+* [x] Animaciones e interacción
+* [x] Publicación mediante GitHub Pages
+
+### Próximamente
+
+* [ ] Agregar proyectos prácticos de ciberseguridad
+* [ ] Documentar laboratorios
+* [ ] Agregar write-ups de CTF
+* [ ] Incorporar proyectos de redes
+* [ ] Mejorar accesibilidad
+* [ ] Mejorar SEO
+* [ ] Configurar definitivamente el formulario de contacto
+* [ ] Continuar actualizando certificaciones y conocimientos
+
+---
+
+## 📈 Evolución
+
+Este repositorio no pretende ser solamente una página estática.
+
+Es un proyecto que irá creciendo junto con mi formación en ciberseguridad.
+
+> **Aprender → Practicar → Documentar → Compartir → Mejorar**
+
+Cada nueva habilidad, laboratorio o proyecto puede convertirse en una nueva parte del portfolio.
+
+---
+
+## 📄 Licencia
+
+Este proyecto corresponde a mi portfolio personal.
+
+El código puede utilizarse como referencia para aprendizaje, pero el contenido personal, certificaciones, imágenes y datos de contacto pertenecen a sus respectivos propietarios.
+
+---
+
+<div align="center">
+
+### `root@m4t30a:~# whoami`
+
+**Mateo Amaya**
+
+*Cybersecurity Student · Linux · Networking · Ethical Hacking*
+
+</div>
+
