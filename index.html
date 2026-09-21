@@ -15,15 +15,15 @@
 <nav>
   <div class="nav-logo"><span id="typewriter"></span><span class="tw-cursor">_</span></div>
   <ul>
-    <li><a href="index.html" class="active">Inicio</a></li>
-    <li><a href="sobre-mi.html">Sobre mí</a></li>
-    <li><a href="skills.html">Skills</a></li>
-    <li><a href="certificados.html">Certs</a></li>
-    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="#inicio" class="active">Inicio</a></li>
+    <li><a href="#sobre-mi">Sobre mí</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certificados">Certs</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ul>
 </nav>
 
-<div id="hero">
+<div id="inicio">
   <div class="hero-grid-bg"></div>
   <div class="hero-glow"></div>
 
@@ -41,8 +41,8 @@
       en seguridad de sistemas, redes y análisis de vulnerabilidades.
     </p>
     <div class="hero-btns">
-      <a href="certificados.html" class="btn btn-primary">Ver certificados</a>
-      <a href="contacto.html" class="btn btn-secondary">Contacto</a>
+      <a href="#certificados" class="btn btn-primary">Ver certificados</a>
+      <a href="#contacto" class="btn btn-secondary">Contacto</a>
     </div>
   </div>
 
@@ -53,10 +53,253 @@
   </div>
 </div>
 
+<section id="sobre-mi" class="page-section">
+  <div class="section-header page-hero">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Sobre mí</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>
+        Soy un estudiante apasionado por la ciberseguridad, con foco en pentesting,
+        análisis de redes y sistemas GNU/Linux. Me interesa entender cómo funcionan
+        los sistemas para encontrar sus vulnerabilidades y contribuir a hacerlos más seguros.
+      </p>
+      <p>
+        Aprendo constantemente a través de laboratorios prácticos, plataformas de hacking
+        ético y documentación técnica. Creo que la seguridad informática es un campo que
+        requiere curiosidad permanente y mentalidad de atacante para defender mejor.
+      </p>
+    </div>
+
+    <div class="terminal-box">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+      </div>
+      <div class="t-line"><span class="prompt">~$</span> <span class="cmd">cat info.txt</span></div>
+      <div class="t-line"><span class="out">Nombre   : </span>Mateo Amaya</div>
+      <div class="t-line"><span class="out">Rol      : </span>Estudiante Ciberseguridad</div>
+      <div class="t-line"><span class="out">SO       : </span>Linux (Kali / Arch)</div>
+      <div class="t-line"><span class="out">Foco     : </span>Pentesting, Redes</div>
+      <div class="t-line"><span class="out">Estado   : </span>Aprendiendo 24/7</div>
+      <br>
+      <div class="t-line"><span class="prompt">~$</span> <span class="cmd">echo $OBJETIVO</span></div>
+      <div class="t-line comment"># Convertirme en profesional</div>
+      <div class="t-line"><span class="out">></span> Ethical Hacker <span class="cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="page-section">
+  <div class="section-header page-hero">
+    <span class="section-num">02</span>
+    <h2 class="section-title">Skills</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="skills-grid reveal">
+    <div class="skill-card">
+      <div class="skill-icon">🐧</div>
+      <div class="skill-name">Linux</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">💻</div>
+      <div class="skill-name">Bash</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🔍</div>
+      <div class="skill-name">Pentesting</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🌐</div>
+      <div class="skill-name">Redes</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🐍</div>
+      <div class="skill-name">Python</div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-icon">🛡️</div>
+      <div class="skill-name">CTF / Labs</div>
+    </div>
+  </div>
+</section>
+
+<section id="certificados" class="page-section">
+  <div class="section-header page-hero">
+    <span class="section-num">03</span>
+    <h2 class="section-title">Certificados</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="cert-grid reveal">
+
+    <!-- CERT 1: Introducción a Linux -->
+    <div class="cert-card has-preview has-link" data-img="images/certs/intro-linux.jpg">
+      <div class="cert-badge-btn" onclick="toggleCertImg(this, event)">🏅</div>
+      <div class="cert-body" onclick="window.open('https://hack4u.io/check-certificate/','_blank')">
+        <div class="cert-issuer">Hack4u</div>
+        <div class="cert-name">Introducción a Linux</div>
+        <div class="cert-desc">Fundamentos de Linux, terminal, sistema de archivos y comandos básicos para moverse en estos sistemas — 15 horas de duración.</div>
+        <div style="margin-top:0.8rem; display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <span class="cert-tag">Linux</span>
+          <span class="cert-tag">Bash</span>
+          <span class="cert-tag">Terminal</span>
+        </div>
+        <div style="margin-top:0.9rem; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);">
+          <div>Finalizado: 15 jul. 2025</div>
+          <div style="margin-top:2px;">ID: 7709-6297-2263-1032</div>
+        </div>
+        <div style="margin-top:0.8rem; font-family:var(--mono); font-size:0.7rem; color:var(--cyan); display:flex; align-items:center; gap:0.4rem;">
+          <span>↗</span><span>Verificar en Hack4u</span>
+        </div>
+      </div>
+      <div class="cert-inner-img"><img src=""/><div class="close-btn" onclick="closeCertImg(this, event)">✕ CERRAR</div></div>
+    </div>
+
+    <!-- CERT 2: Personalización de Entorno en Linux -->
+    <div class="cert-card has-preview has-link" data-img="images/certs/personalizacion-linux.jpg">
+      <div class="cert-badge-btn" onclick="toggleCertImg(this, event)">🏅</div>
+      <div class="cert-body" onclick="window.open('https://hack4u.io/check-certificate/','_blank')">
+        <div class="cert-issuer">Hack4u</div>
+        <div class="cert-name">Personalización de Entorno en Linux</div>
+        <div class="cert-desc">Configuración avanzada y personalización de un entorno Linux desde cero (WM, shell, lanzadores) orientado a un flujo de trabajo profesional.</div>
+        <div style="margin-top:0.8rem; display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <span class="cert-tag">Linux</span>
+          <span class="cert-tag">Bash</span>
+          <span class="cert-tag">bspwm</span>
+        </div>
+        <div style="margin-top:0.9rem; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);">
+          <div>Finalizado: 20 may. 2025</div>
+          <div style="margin-top:2px;">ID: 6597-5395-1027-0208</div>
+        </div>
+        <div style="margin-top:0.8rem; font-family:var(--mono); font-size:0.7rem; color:var(--cyan); display:flex; align-items:center; gap:0.4rem;">
+          <span>↗</span><span>Verificar en Hack4u</span>
+        </div>
+      </div>
+      <div class="cert-inner-img"><img src=""/><div class="close-btn" onclick="closeCertImg(this, event)">✕ CERRAR</div></div>
+    </div>
+
+    <!-- CERT 3: Arch Linux desde Cero -->
+    <div class="cert-card has-preview has-link" data-img="images/certs/arch-linux-cero.jpg">
+      <div class="cert-badge-btn" onclick="toggleCertImg(this, event)">🏅</div>
+      <div class="cert-body" onclick="window.open('https://hack4u.io/check-certificate/','_blank')">
+        <div class="cert-issuer">Hack4u</div>
+        <div class="cert-name">Arch Linux desde Cero</div>
+        <div class="cert-desc">Instalación y configuración completa de Arch Linux, adquiriendo los conocimientos para armar un entorno personalizado y orientado a tareas de ciberseguridad.</div>
+        <div style="margin-top:0.8rem; display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <span class="cert-tag">Arch Linux</span>
+          <span class="cert-tag">Linux</span>
+          <span class="cert-tag">Ciberseguridad</span>
+        </div>
+        <div style="margin-top:0.9rem; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);">
+          <div>Finalizado: 20 abr. 2026</div>
+          <div style="margin-top:2px;">ID: 1031-1197-3398-7631</div>
+        </div>
+        <div style="margin-top:0.8rem; font-family:var(--mono); font-size:0.7rem; color:var(--cyan); display:flex; align-items:center; gap:0.4rem;">
+          <span>↗</span><span>Verificar en Hack4u</span>
+        </div>
+      </div>
+      <div class="cert-inner-img"><img src=""/><div class="close-btn" onclick="closeCertImg(this, event)">✕ CERRAR</div></div>
+    </div>
+
+    <!-- CERT 4: Cisco -->
+    <div class="cert-card has-link" onclick="window.open('https://www.credly.com/badges/89ece436-20bd-4f36-a4b3-9df953eb090a/linked_in_profile','_blank')" style="cursor:pointer;">
+      <div class="cert-badge-btn" style="cursor:default;">🏅</div>
+      <div class="cert-body">
+        <div class="cert-issuer">Cisco</div>
+        <div class="cert-name">Introduction to Cybersecurity</div>
+        <div class="cert-desc">Conceptos fundamentales de ciberseguridad, amenazas digitales, protección de datos y buenas prácticas de seguridad en redes.</div>
+        <div style="margin-top:0.8rem; display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <span class="cert-tag">Ciberseguridad</span>
+          <span class="cert-tag">Redes</span>
+        </div>
+        <div style="margin-top:0.9rem; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);">
+          <div>Finalizado: feb. 2025</div>
+        </div>
+        <div style="margin-top:0.8rem; font-family:var(--mono); font-size:0.7rem; color:var(--cyan); display:flex; align-items:center; gap:0.4rem;">
+          <span>↗</span><span>Ver credencial en Credly</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CERT 5: AWS -->
+    <div class="cert-card has-link" onclick="window.open('https://www.aws.training/','_blank')" style="cursor:pointer;">
+      <div class="cert-badge-btn" style="cursor:default;">☁️</div>
+      <div class="cert-body">
+        <div class="cert-issuer">AWS Entrena</div>
+        <div class="cert-name">Fundamentos de Nube AWS</div>
+        <div class="cert-desc">Conceptos de computación en la nube con Amazon Web Services: infraestructura, servicios y arquitectura cloud.</div>
+        <div style="margin-top:0.8rem; display:flex; flex-wrap:wrap; gap:0.4rem;">
+          <span class="cert-tag">Cloud</span>
+          <span class="cert-tag">AWS</span>
+        </div>
+        <div style="margin-top:0.9rem; font-family:var(--mono); font-size:0.65rem; color:var(--text-dim);">
+          <div>Finalizado: mar. 2026</div>
+        </div>
+        <div style="margin-top:0.8rem; font-family:var(--mono); font-size:0.7rem; color:var(--cyan); display:flex; align-items:center; gap:0.4rem;">
+          <span>↗</span><span>Ver constancia</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto" class="page-section">
+  <div class="section-header page-hero">
+    <span class="section-num">04</span>
+    <h2 class="section-title">Contacto</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <form id="contact-form" class="contact-form reveal" action="https://formspree.io/f/xyezejpk" method="POST">
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" required placeholder="Tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="tu@email.com">
+    </div>
+    <div class="form-group">
+      <label for="subject">Asunto</label>
+      <input type="text" id="subject" name="subject" placeholder="¿De qué se trata?">
+    </div>
+    <div class="form-group">
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" required placeholder="Contame en qué te puedo ayudar..."></textarea>
+    </div>
+
+    <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off">
+
+    <button type="submit" class="btn btn-primary" id="submit-btn">Enviar mensaje</button>
+
+    <div id="form-status" class="form-status"></div>
+  </form>
+
+  <div class="contact-wrapper reveal">
+    <a href="https://linkedin.com/in/mate0-amaya" target="_blank" class="contact-link">
+      <span class="icon">💼</span>
+      <span>linkedin.com/in/mate0-amaya</span>
+    </a>
+    <a href="https://github.com/M4t30A" target="_blank" class="contact-link">
+      <span class="icon">⌨️</span>
+      <span>github.com/M4t30A</span>
+    </a>
+  </div>
+</section>
+
 <footer>
   <div>© 2025 — Mateo Amaya</div>
   <div>Desarrollado con 💚 y mucho terminal</div>
 </footer>
+
+<div id="cert-overlay"><img id="cert-overlay-img" src="" alt="Certificado"/></div>
 
 <div id="sudo-overlay">
   <div id="sudo-terminal">
@@ -67,5 +310,61 @@
 </div>
 
 <script src="js/main.js"></script>
+<script src="js/certs.js"></script>
+<script>
+const form = document.getElementById('contact-form');
+const status = document.getElementById('form-status');
+const submitBtn = document.getElementById('submit-btn');
+
+form.addEventListener('submit', async function (e) {
+  e.preventDefault();
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Enviando...';
+
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      status.textContent = '✓ Mensaje enviado. Te voy a responder a la brevedad.';
+      status.className = 'form-status show success';
+      form.reset();
+    } else {
+      const data = await response.json().catch(() => null);
+      if (data && data.errors) {
+        status.textContent = '✕ ' + data.errors.map(err => err.message).join(', ');
+      } else {
+        status.textContent = '✕ No se pudo enviar. Probá de nuevo en un momento.';
+      }
+      status.className = 'form-status show error';
+    }
+  } catch (err) {
+    status.textContent = '✕ Error de conexión. Revisá tu internet e intentá de nuevo.';
+    status.className = 'form-status show error';
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Enviar mensaje';
+  }
+});
+
+// Mantener marcada en la barra la sección que se está viendo.
+const navLinks = document.querySelectorAll('nav a[href^="#"]');
+const navSections = document.querySelectorAll('#inicio, section[id]');
+
+const navObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+      });
+    }
+  });
+}, { rootMargin: '-35% 0px -55% 0px', threshold: 0 });
+
+navSections.forEach(section => navObserver.observe(section));
+</script>
 </body>
 </html>
